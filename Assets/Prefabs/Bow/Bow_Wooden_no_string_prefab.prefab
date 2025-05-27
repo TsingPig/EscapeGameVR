@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 173345363007681787}
   - component: {fileID: 2595632210030850217}
   - component: {fileID: 5208408030105005900}
+  - component: {fileID: 1383314887817699798}
   m_Layer: 0
   m_Name: Bow_Wooden_no_string_prefab
   m_TagString: Untagged
@@ -365,6 +366,48 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &1383314887817699798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264756805361922764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 173345363007681787}
+        m_TargetAssemblyTypeName: ArrowControler, Assembly-CSharp
+        m_MethodName: PrepareArrow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 173345363007681787}
+        m_TargetAssemblyTypeName: ArrowControler, Assembly-CSharp
+        m_MethodName: ReleaseArrow
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 10
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  triggeringTime: 1.5
 --- !u!1 &4869870664482574186
 GameObject:
   m_ObjectHideFlags: 0

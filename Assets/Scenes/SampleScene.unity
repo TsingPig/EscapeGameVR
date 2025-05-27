@@ -21180,7 +21180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usePhysicsOnRelease: 0
-  GrabPhysics: 1
+  GrabPhysics: 0
   GrabMechanic: 0
   destination: {fileID: 1438935620}
 --- !u!1001 &983795854
@@ -34246,51 +34246,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664364167}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1666396367
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1666396369}
-  - component: {fileID: 1666396368}
-  m_Layer: 0
-  m_Name: VRExplorer.EntityManager (Singleton)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1666396368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9adf4d592730f184f931354948d3cec6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vrexplorerMono: {fileID: 0}
---- !u!4 &1666396369
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396367}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1684602591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34974,8 +34929,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755527910}
-  m_LocalRotation: {x: -0.000028541437, y: 0.9199458, z: -0.000011420624, w: 0.39204574}
-  m_LocalPosition: {x: -4.486001, y: 2.845, z: 4.564}
+  m_LocalRotation: {x: 0.02201397, y: 0.9187235, z: -0.021366173, w: 0.39370808}
+  m_LocalPosition: {x: -4.465487, y: 2.6667721, z: 4.5887136}
   m_LocalScale: {x: 0.022896677, y: -0.031833578, z: 0.48735}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37147,6 +37102,51 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1984327691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1984327693}
+  - component: {fileID: 1984327692}
+  m_Layer: 0
+  m_Name: VRExplorer.EntityManager (Singleton)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1984327692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984327691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9adf4d592730f184f931354948d3cec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vrexplorerMono: {fileID: 0}
+--- !u!4 &1984327693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984327691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1993189841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37949,7 +37949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usePhysicsOnRelease: 0
-  GrabPhysics: 1
+  GrabPhysics: 0
   GrabMechanic: 0
   destination: {fileID: 369989969}
 --- !u!1001 &2063626596
@@ -39131,7 +39131,7 @@ PrefabInstance:
     - target: {fileID: 7386296446462146532, guid: 33c7ef851058284468713896a5513afc,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 79
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 7828095582233294956, guid: 33c7ef851058284468713896a5513afc,
         type: 3}

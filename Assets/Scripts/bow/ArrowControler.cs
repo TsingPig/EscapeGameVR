@@ -23,6 +23,7 @@ public class ArrowControler : MonoBehaviour
         arrow.transform.rotation = midPointVisual.transform.rotation;
         Rigidbody rb = arrow.GetComponent<Rigidbody>();
         rb.AddForce(midPointVisual.transform.forward * strength * arrowMaxSpeed, ForceMode.Impulse);
+        Debug.Log("ReleaseArrow");
     }
 
 }
